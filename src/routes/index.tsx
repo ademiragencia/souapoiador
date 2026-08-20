@@ -73,6 +73,27 @@ const spends = [
   },
 ];
 
+const crowdPhotos = [
+  {
+    src: "/images/paulista.jpg",
+    alt: "Avenida Paulista tomada de verde e amarelo, faixas e bandeiras do Brasil",
+    caption: "Paulista",
+    detail: "Ponto de encontro no MASP",
+  },
+  {
+    src: "/images/brasilia.jpg",
+    alt: "Povo de amarelo em Brasília, em frente ao Congresso, com bandeiras do Brasil",
+    caption: "Brasília",
+    detail: "O Brasil inteiro na rua",
+  },
+  {
+    src: "/images/bandeira.jpg",
+    alt: "Bandeira do Brasil erguida no meio da multidão de verde e amarelo",
+    caption: "A bandeira",
+    detail: "Quem está com o capitão",
+  },
+];
+
 function Home() {
   const { campaign, donations } = Route.useLoaderData();
   useCampaignLive();
@@ -188,6 +209,28 @@ function Home() {
           </div>
         </section>
 
+        <section aria-label="O povo na rua" className="bg-hero">
+          <div className="grid sm:grid-cols-3">
+            {crowdPhotos.map((photo) => (
+              <figure key={photo.src} className="relative isolate overflow-hidden">
+                <img
+                  src={photo.src}
+                  alt={photo.alt}
+                  className="aspect-[3/2] w-full object-cover sm:aspect-[4/5] lg:aspect-[3/2]"
+                  width={1200}
+                  height={800}
+                />
+                <figcaption className="absolute inset-x-0 bottom-0 bg-hero/70 px-4 py-3 text-primary-foreground">
+                  <p className="font-display text-lg font-semibold uppercase tracking-wide">
+                    {photo.caption}
+                  </p>
+                  <p className="text-sm text-primary-foreground/75">{photo.detail}</p>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+
         <section
           id="ato"
           className="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:items-center lg:gap-16 lg:py-24"
@@ -195,7 +238,7 @@ function Home() {
           <div className="overflow-hidden rounded-2xl bg-hero shadow-[var(--shadow-lift)]">
             <img
               src="/images/paulista.jpg"
-              alt="Avenida Paulista tomada de verde e amarelo no ponto de encontro do MASP"
+              alt="Avenida Paulista tomada de verde e amarelo, faixas pela anistia e bandeiras do Brasil"
               className="aspect-[4/3] w-full object-cover outline outline-1 -outline-offset-1 outline-foreground/15"
               width={1600}
               height={900}
@@ -270,8 +313,8 @@ function Home() {
             </div>
             <div className="overflow-hidden rounded-2xl bg-hero shadow-[var(--shadow-lift)]">
               <img
-                src="/images/masp.jpg"
-                alt="MASP na Avenida Paulista, ponto de encontro do ato de 15 de setembro"
+                src="/images/bandeira.jpg"
+                alt="Bandeira do Brasil erguida no meio da multidão de verde e amarelo"
                 className="aspect-[4/3] w-full object-cover outline outline-1 -outline-offset-1 outline-foreground/15"
                 width={1600}
                 height={1200}
