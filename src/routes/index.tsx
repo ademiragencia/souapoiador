@@ -50,7 +50,7 @@ const facts = [
   {
     icon: Tv,
     label: "Cobertura",
-    value: "SBT · Record",
+    value: "SBT e Record",
     detail: "o Brasil vai ver",
   },
 ];
@@ -59,7 +59,7 @@ const spends = [
   {
     icon: Megaphone,
     title: "Som, palco e telão",
-    text: "Para a Paulista ouvir o pedido de liberdade — e a TV enxergar o último ato, lotado.",
+    text: "Para a Paulista ouvir o pedido de liberdade e a TV enxergar o último ato, lotado.",
   },
   {
     icon: Flag,
@@ -126,14 +126,14 @@ function Home() {
                 <strong className="font-medium text-primary-foreground">
                   MASP, Avenida Paulista
                 </strong>
-                . SBT e Record no local. Esta vaquinha banca o ato — a partir de
+                . SBT e Record no local. Esta vaquinha banca o ato, a partir de
                 R$ 10.
               </p>
 
               <div className="mt-6">
                 <p className="flex items-center gap-2 text-sm text-primary-foreground/70">
                   <span className="live-dot text-accent" aria-hidden="true" />
-                  Arrecadado no banco · ao vivo
+                  Arrecadado no banco, ao vivo
                 </p>
                 <RaisedCounter
                   cents={campaign.raisedCents}
@@ -143,7 +143,7 @@ function Home() {
                 <div className="mt-5 flex items-end justify-between gap-4 text-sm">
                   <p className="text-primary-foreground/70">
                     Meta {formatBRL(campaign.goalCents, { compact: true })}
-                    {overGoal ? " · meta superada" : ""}
+                    {overGoal ? ", meta superada" : ""}
                   </p>
                   <p className="tabular-nums text-primary-foreground">
                     {campaign.percent}%
@@ -157,7 +157,7 @@ function Home() {
                   {campaign.supporterCount} pessoas no mural
                   {overGoal
                     ? ""
-                    : ` · faltam ${formatBRL(remaining, { compact: true })}`}
+                    : ` e faltam ${formatBRL(remaining, { compact: true })}`}
                 </p>
               </div>
 
@@ -259,7 +259,7 @@ function Home() {
               <p>
                 Este é o último chamado nacional antes das eleições. Dia 15 de
                 setembro, Avenida Paulista, ponto de encontro no MASP. Vamos
-                libertar nosso presidente — com a câmera da SBT e da Record
+                libertar nosso presidente, com a câmera da SBT e da Record
                 apontada para o povo.
               </p>
               <p>
@@ -293,7 +293,7 @@ function Home() {
               </h2>
               <p className="mt-4 text-base leading-relaxed text-muted-foreground">
                 Sem som, sem faixa, sem ônibus, o último ato some na avenida.
-                Esta vaquinha existe para o MASP ficar cheio — e o Brasil
+                Esta vaquinha existe para o MASP ficar cheio, e o Brasil
                 inteiro ver, antes das urnas.
               </p>
               <ul className="mt-8 space-y-5">
@@ -393,7 +393,7 @@ function Home() {
         className="fixed inset-x-4 bottom-4 z-40 flex h-12 items-center justify-center rounded-xl bg-accent text-sm font-medium text-accent-foreground shadow-[var(--shadow-lift)] sm:hidden"
         style={{ marginBottom: "env(safe-area-inset-bottom)" }}
       >
-        Apoiar agora · libertar o presidente
+        Apoiar agora, libertar o presidente
       </a>
     </div>
   );

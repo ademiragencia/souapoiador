@@ -133,7 +133,7 @@ export function DonateCard() {
           <span />
         </div>
         <p className="mt-2 text-xs font-medium uppercase tracking-[0.16em] text-accent">
-          Último ato · a partir de R$ 10
+          Último ato, a partir de R$ 10
         </p>
         <h2 className="mt-1 font-display text-xl font-semibold uppercase tracking-wide sm:text-2xl">
           Quanto você soma?
@@ -221,7 +221,7 @@ export function DonateCard() {
         </Button>
         <p className="mt-3 flex items-center justify-center gap-1.5 text-xs text-muted-foreground">
           <ShieldCheck className="size-3.5" />
-          PIX único · a partir de {formatBRL(MIN_DONATION_CENTS)} · total no banco
+          PIX único, a partir de {formatBRL(MIN_DONATION_CENTS)}, total no banco
         </p>
       </div>
 
@@ -239,7 +239,7 @@ export function DonateCard() {
                 <DialogTitle>PIX da vaquinha</DialogTitle>
                 <DialogDescription>
                   Confirme {formatBRL(amountCents)} para o ato no MASP. Nesta
-                  prévia, o apoio entra no total na hora — e fica gravado.
+                  prévia, o apoio entra no total na hora e fica gravado.
                 </DialogDescription>
               </DialogHeader>
               <div className="flex flex-col items-center gap-4">
@@ -273,7 +273,7 @@ export function DonateCard() {
                     Registrando
                   </>
                 ) : (
-                  "Já paguei · registrar apoio"
+                  "Já paguei, registrar apoio"
                 )}
               </Button>
             </>

@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 const items = [
   {
     q: "Por que este é o último ato?",
-    a: "Porque as eleições vêm logo depois. Dia 15 de setembro é o último chamado nacional na Paulista antes das urnas. Vamos libertar nosso presidente — e o Brasil precisa ver isso na SBT e na Record.",
+    a: "Porque as eleições vêm logo depois. Dia 15 de setembro é o último chamado nacional na Paulista antes das urnas. Vamos libertar nosso presidente, e o Brasil precisa ver isso na SBT e na Record.",
   },
   {
     q: "Qual é o valor mínimo?",
@@ -17,11 +17,11 @@ const items = [
   },
   {
     q: "Os R$ 11.880 já entram na conta?",
-    a: "Sim. A campanha parte de R$ 11.880 já arrecadados. Cada novo apoio soma a esse total — nada é zerado. O número fica gravado no banco e sobe no site em tempo real.",
+    a: "Sim. A campanha parte de R$ 11.880 já arrecadados. Cada novo apoio soma a esse total. Nada é zerado. O número fica gravado no banco e sobe no site em tempo real.",
   },
   {
     q: "SBT e Record vão cobrir?",
-    a: "Sim. O último ato na Paulista terá cobertura da SBT e da Record. Quanto mais gente e estrutura no MASP, mais o Brasil vê o pedido de liberdade — ainda antes das urnas.",
+    a: "Sim. O último ato na Paulista terá cobertura da SBT e da Record. Quanto mais gente e estrutura no MASP, mais o Brasil vê o pedido de liberdade, ainda antes das urnas.",
   },
   {
     q: "Posso doar sem aparecer no mural?",
