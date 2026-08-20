@@ -37,9 +37,9 @@ export const Route = createFileRoute("/")({
 const facts = [
   {
     icon: Flag,
-    label: "15 de setembro",
-    value: "O dia",
-    detail: "ato na Paulista",
+    label: "Antes das eleições",
+    value: "Último ato",
+    detail: "15 de setembro",
   },
   {
     icon: Landmark,
@@ -59,7 +59,7 @@ const spends = [
   {
     icon: Megaphone,
     title: "Som, palco e telão",
-    text: "Para a Paulista ouvir o pedido de liberdade — e a TV enxergar o MASP lotado.",
+    text: "Para a Paulista ouvir o pedido de liberdade — e a TV enxergar o último ato, lotado.",
   },
   {
     icon: Flag,
@@ -90,7 +90,7 @@ const crowdPhotos = [
     src: "/images/bandeira.jpg",
     alt: "Bandeira do Brasil erguida no meio da multidão de verde e amarelo",
     caption: "A bandeira",
-    detail: "Quem está com o capitão",
+    detail: "Quem está com o presidente",
   },
 ];
 
@@ -115,16 +115,16 @@ function Home() {
                 <span />
               </div>
               <p className="mt-4 text-xs font-medium uppercase tracking-[0.22em] text-accent">
-                Bolsonaro pelo Brasil · petição popular
+                Último ato antes das eleições
               </p>
               <h1 className="mt-3 max-w-xl font-display text-display uppercase">
-                Liberte o capitão.
+                Vamos libertar nosso presidente.
               </h1>
               <p className="mt-4 max-w-md text-base leading-relaxed text-primary-foreground/85 sm:text-lg">
-                Ele não pode ficar sozinho. No dia 15 de setembro a Paulista
-                pede a liberdade do nosso capitão. Ponto de encontro:{" "}
+                15 de setembro. Depois, as urnas. Sem o presidente livre, o
+                Brasil vota de mãos atadas. Ponto de encontro:{" "}
                 <strong className="font-medium text-primary-foreground">
-                  MASP
+                  MASP, Avenida Paulista
                 </strong>
                 . SBT e Record no local. Esta vaquinha banca o ato — a partir de
                 R$ 10.
@@ -163,7 +163,7 @@ function Home() {
 
               <div className="mt-6 rounded-xl border border-primary-foreground/15 bg-hero/40 px-4 py-3 backdrop-blur-sm">
                 <p className="text-[0.65rem] font-medium uppercase tracking-[0.16em] text-accent">
-                  Faltam para o ato
+                  Faltam para o último ato
                 </p>
                 <div className="mt-2">
                   <EventCountdown />
@@ -250,17 +250,17 @@ function Home() {
               <span />
             </div>
             <p className="mt-4 text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">
-              O ato
+              O último ato
             </p>
             <h2 className="mt-2 font-display text-3xl font-semibold uppercase tracking-wide sm:text-4xl">
-              A liberdade se pede na rua.
+              Depois disso, as urnas.
             </h2>
             <div className="mt-5 space-y-4 text-base leading-relaxed text-muted-foreground">
               <p>
-                Dia 15 de setembro, Avenida Paulista. Ponto de encontro no MASP.
-                Não é passeata solta: é um pedido nacional pela liberdade do
-                nosso capitão, com câmera da SBT e da Record apontada para o
-                povo.
+                Este é o último chamado nacional antes das eleições. Dia 15 de
+                setembro, Avenida Paulista, ponto de encontro no MASP. Vamos
+                libertar nosso presidente — com a câmera da SBT e da Record
+                apontada para o povo.
               </p>
               <p>
                 Os {formatBRL(campaign.baseRaisedCents, { compact: true })} já
@@ -289,11 +289,12 @@ function Home() {
                 Para onde vai cada real
               </p>
               <h2 className="mt-2 font-display text-3xl font-semibold uppercase tracking-wide sm:text-4xl">
-                R$ 100 mil para o capitão não ficar só.
+                R$ 100 mil para libertar o presidente.
               </h2>
               <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-                Sem som, sem faixa, sem ônibus, o ato some na avenida. Esta
-                vaquinha existe para o MASP ficar cheio — e o Brasil inteiro ver.
+                Sem som, sem faixa, sem ônibus, o último ato some na avenida.
+                Esta vaquinha existe para o MASP ficar cheio — e o Brasil
+                inteiro ver, antes das urnas.
               </p>
               <ul className="mt-8 space-y-5">
                 {spends.map((item) => (
@@ -392,7 +393,7 @@ function Home() {
         className="fixed inset-x-4 bottom-4 z-40 flex h-12 items-center justify-center rounded-xl bg-accent text-sm font-medium text-accent-foreground shadow-[var(--shadow-lift)] sm:hidden"
         style={{ marginBottom: "env(safe-area-inset-bottom)" }}
       >
-        Apoiar agora · a partir de R$ 10
+        Apoiar agora · libertar o presidente
       </a>
     </div>
   );

@@ -20,7 +20,7 @@ export function EventCountdown() {
   if (now == null) {
     return (
       <p className="text-sm text-primary-foreground/70">
-        15 de setembro · o relógio já corre
+        15 de setembro · último ato antes das eleições
       </p>
     );
   }

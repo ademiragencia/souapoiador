@@ -133,7 +133,7 @@ export function DonateCard() {
           <span />
         </div>
         <p className="mt-2 text-xs font-medium uppercase tracking-[0.16em] text-accent">
-          Petição · a partir de R$ 10
+          Último ato · a partir de R$ 10
         </p>
         <h2 className="mt-1 font-display text-xl font-semibold uppercase tracking-wide sm:text-2xl">
           Quanto você soma?
@@ -200,11 +200,11 @@ export function DonateCard() {
         </div>
 
         <div className="mt-4 space-y-1.5">
-          <Label htmlFor="note">Recado ao capitão (opcional)</Label>
+          <Label htmlFor="note">Recado ao presidente (opcional)</Label>
           <Textarea
             id="note"
             maxLength={140}
-            placeholder="Uma frase pela liberdade"
+            placeholder="Vamos libertar nosso presidente"
             value={note}
             onChange={(event) => setNote(event.target.value)}
           />
@@ -280,10 +280,10 @@ export function DonateCard() {
           ) : (
             <>
               <DialogHeader>
-                <DialogTitle>Obrigado. O capitão conta com você.</DialogTitle>
+                <DialogTitle>Obrigado. O presidente conta com você.</DialogTitle>
                 <DialogDescription>
-                  Seu valor já entrou no total da Paulista. No dia 15, no MASP,
-                  isso vira som, faixa e presença.
+                  Seu valor já entrou no último ato antes das eleições. No dia
+                  15, no MASP, isso vira som, faixa e presença.
                 </DialogDescription>
               </DialogHeader>
               <div className="flex justify-center py-2">

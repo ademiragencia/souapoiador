@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Bolsonaro pelo Brasil. Petição e vaquinha pela liberdade do capitão. Ato em 15 de setembro na Avenida Paulista, ponto de encontro no MASP. Meta de R$ 100 mil. Já são R$ 11.880. Cobertura SBT e Record. Doação mínima de R$ 10.",
+          "Último ato antes das eleições. Vamos libertar nosso presidente. 15 de setembro, Avenida Paulista, ponto de encontro no MASP. Meta de R$ 100 mil. Já são R$ 11.880. Cobertura SBT e Record. Doação mínima de R$ 10.",
       },
       { name: "theme-color", content: "#042A14" },
     ],

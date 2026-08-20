@@ -13,10 +13,10 @@ export function SiteFooter() {
               {APP_NAME}
             </p>
             <p className="mt-1 max-w-sm text-sm text-primary-foreground/75">
-              Petição popular pela liberdade do capitão. Vaquinha para o ato de
-              15 de setembro na Avenida Paulista, ponto de encontro no MASP.
-              Doação mínima de R$ 10. Os R$ 11.880 já arrecadados continuam na
-              conta.
+              Último ato antes das eleições. Vamos libertar nosso presidente.
+              Vaquinha para 15 de setembro na Avenida Paulista, ponto de
+              encontro no MASP. Doação mínima de R$ 10. Os R$ 11.880 já
+              arrecadados continuam na conta.
             </p>
           </div>
         </div>

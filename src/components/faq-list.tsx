@@ -4,12 +4,16 @@ import { cn } from "@/lib/utils";
 
 const items = [
   {
+    q: "Por que este é o último ato?",
+    a: "Porque as eleições vêm logo depois. Dia 15 de setembro é o último chamado nacional na Paulista antes das urnas. Vamos libertar nosso presidente — e o Brasil precisa ver isso na SBT e na Record.",
+  },
+  {
     q: "Qual é o valor mínimo?",
     a: "R$ 10. Você escolhe um atalho ou digita outro valor. Cada real entra no total na hora e ajuda a bancar o ato.",
   },
   {
     q: "Para que serve esta vaquinha?",
-    a: "Para financiar a manifestação de 15 de setembro na Avenida Paulista, ponto de encontro no MASP: som, palco, telão, faixas, bandeiras, ônibus dos comitês e estrutura no dia. É a petição viva pela liberdade do capitão.",
+    a: "Para financiar o último ato antes das eleições: 15 de setembro, Avenida Paulista, ponto de encontro no MASP. Som, palco, telão, faixas, bandeiras, ônibus dos comitês e estrutura no dia. É a petição viva pela liberdade do presidente.",
   },
   {
     q: "Os R$ 11.880 já entram na conta?",
@@ -17,7 +21,7 @@ const items = [
   },
   {
     q: "SBT e Record vão cobrir?",
-    a: "Sim. O ato na Paulista terá cobertura da SBT e da Record. Quanto mais gente e estrutura no MASP, mais o Brasil vê o pedido de liberdade.",
+    a: "Sim. O último ato na Paulista terá cobertura da SBT e da Record. Quanto mais gente e estrutura no MASP, mais o Brasil vê o pedido de liberdade — ainda antes das urnas.",
   },
   {
     q: "Posso doar sem aparecer no mural?",

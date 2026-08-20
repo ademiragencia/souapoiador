@@ -31,7 +31,7 @@ export function SiteHeader() {
           ))}
         </nav>
         <Button asChild size="sm" className="hidden sm:inline-flex">
-          <a href="#doar">Apoiar agora</a>
+          <a href="#doar">Liberte o presidente</a>
         </Button>
       </div>
     </header>
