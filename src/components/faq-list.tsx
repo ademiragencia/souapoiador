@@ -21,7 +21,7 @@ const items = [
   },
   {
     q: "Para onde vai o dinheiro?",
-    a: "Para o Comitê Apoie seu Presidente: presença nos estados, comunicação cívica e estrutura de apoio popular. Não é tesouro oficial nem conta de governo.",
+    a: "Para o Comitê Apoie seu Presidente: presença nos estados, comunicação e estrutura de apoio popular. Campanha patriota, não tesouro oficial nem conta de governo.",
   },
 ];
 

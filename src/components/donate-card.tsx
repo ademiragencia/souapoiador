@@ -128,7 +128,11 @@ export function DonateCard() {
       className="scroll-mt-24 overflow-hidden rounded-2xl bg-card text-card-foreground shadow-[var(--shadow-lift)]"
     >
       <div className="bg-primary px-5 py-3.5 text-primary-foreground sm:px-6">
-        <p className="text-xs font-medium uppercase tracking-[0.16em] text-primary-foreground/70">
+        <div className="sash sash-flag" aria-hidden="true">
+          <span />
+          <span />
+        </div>
+        <p className="mt-2 text-xs font-medium uppercase tracking-[0.16em] text-accent">
           Doar agora · a partir de R$ 10
         </p>
         <h2 className="mt-1 font-display text-xl font-semibold tracking-tight sm:text-2xl">

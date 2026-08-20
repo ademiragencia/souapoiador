@@ -27,7 +27,7 @@ const impacts = [
     icon: Map,
     label: "Estados com comitê",
     value: "27",
-    detail: "presença em todo o país",
+    detail: "em todo o Brasil",
   },
   {
     icon: Users,
