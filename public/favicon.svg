@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Apoie seu Presidente">
+  <rect width="32" height="32" rx="7" fill="#1E3A4C"/>
+  <!-- Bold cream P: stadium bowl, square stem. Counters opened for 16px. -->
+  <path fill="#F3EFE7" fill-rule="evenodd" d="M8.6 5.05 H18.05 A5.8 5.8 0 0 1 18.05 16.65 H13.4 V22.2 H8.6 Z M13.4 8.5 H17.7 A2.35 2.35 0 0 1 17.7 13.2 H13.4 Z"/>
+  <!-- Presidential sash: two thin cream stripes -->
+  <rect x="8.4" y="24.4" width="15.2" height="1.3" rx="0.3" fill="#F3EFE7"/>
+  <rect x="8.4" y="26.9" width="15.2" height="1.3" rx="0.3" fill="#F3EFE7"/>
+</svg>

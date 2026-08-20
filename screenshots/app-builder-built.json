@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Apoie seu Presidente",
+      "hasCanvas": false,
+      "bodyTextLen": 2969,
+      "bodyTextHash": "cdcacdc240348c18343ea2d0b5e8515b5f38b5056902d52b4e1b90f2f78a18ed",
+      "bodyTextPrefix": "P Apoie seu Presidente A campanha Apoiadores Transparência Apoia",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Apoie seu Presidente",
+      "hasCanvas": false,
+      "bodyTextLen": 2934,
+      "bodyTextHash": "3ad26a1bdd57ada5b78ecd64d71631f0e4eb2bac609144a3e4e83de51e9e3bd7",
+      "bodyTextPrefix": "P Apoie seu Presidente COMITÊ · VAQUINHA CÍVICA Apoie seu presid",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
