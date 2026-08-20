@@ -136,7 +136,7 @@ async function createPgliteSql(): Promise<Sql> {
   // auth schema under migrations/auth/ stays out. Runs once per module instance
   // — so an HMR reload after adding a migration file applies it live — with
   // passes serialized on a global chain so concurrent callers never
-  // double-apply. 0004 raises the campaign goal to R$ 5.000.000.
+  // double-apply. 0005 sets the Paulista campaign (R$ 100 mil / R$ 11.880).
   const migrate = async (): Promise<void> => {
     const migrations = import.meta.glob("/migrations/*.sql", {
       query: "?raw",

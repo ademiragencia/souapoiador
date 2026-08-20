@@ -1,4 +1,5 @@
 import { PresidentMark } from "@/components/president-mark";
+import { APP_NAME } from "@/lib/campaign";
 
 export function SiteFooter() {
   return (
@@ -8,19 +9,21 @@ export function SiteFooter() {
         <div className="flex items-start gap-3">
           <PresidentMark className="size-9" />
           <div>
-            <p className="font-display text-lg font-semibold">
-              Comitê Apoie seu Presidente
+            <p className="font-display text-lg font-semibold uppercase tracking-wide">
+              {APP_NAME}
             </p>
             <p className="mt-1 max-w-sm text-sm text-primary-foreground/75">
-              Campanha patriota para as eleições. Meta de R$ 5 milhões. Doação
-              mínima de R$ 10. Cada novo apoio soma aos R$ 215 mil já
-              arrecadados. Pelo Brasil.
+              Petição popular pela liberdade do capitão. Vaquinha para o ato de
+              15 de setembro na Avenida Paulista, ponto de encontro no MASP.
+              Doação mínima de R$ 10. Os R$ 11.880 já arrecadados continuam na
+              conta.
             </p>
           </div>
         </div>
         <p className="text-xs text-primary-foreground/55">
           Campanha de apoio popular, não oficial. O PIX desta prévia registra o
-          apoio na hora, sem cobrança bancária real.
+          apoio na hora, sem cobrança bancária real. Total público, gravado no
+          banco.
         </p>
       </div>
     </footer>

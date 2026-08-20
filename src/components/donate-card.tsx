@@ -48,8 +48,8 @@ export function DonateCard() {
     amountReais != null ? reaisToCents(amountReais) : null;
 
   const pixPayload = useMemo(() => {
-    if (!amountCents) return "APOIE-SEU-PRESIDENTE";
-    return `0002012636BR.GOV.BCB.PIX|APOIESEUPRESIDENTE|${amountCents}|COMITE`;
+    if (!amountCents) return "BOLSONARO-PELO-BRASIL";
+    return `0002012636BR.GOV.BCB.PIX|BOLSONAROPELOBRASIL|${amountCents}|MASP`;
   }, [amountCents]);
 
   function validate() {
@@ -119,7 +119,7 @@ export function DonateCard() {
 
   const cta =
     amountCents != null && amountCents >= MIN_DONATION_CENTS
-      ? `Apoiar com ${formatBRL(amountCents)}`
+      ? `Somar ${formatBRL(amountCents)} na Paulista`
       : "Continuar para o PIX";
 
   return (
@@ -133,9 +133,9 @@ export function DonateCard() {
           <span />
         </div>
         <p className="mt-2 text-xs font-medium uppercase tracking-[0.16em] text-accent">
-          Doar agora · a partir de R$ 10
+          Petição · a partir de R$ 10
         </p>
-        <h2 className="mt-1 font-display text-xl font-semibold tracking-tight sm:text-2xl">
+        <h2 className="mt-1 font-display text-xl font-semibold uppercase tracking-wide sm:text-2xl">
           Quanto você soma?
         </h2>
       </div>
@@ -200,11 +200,11 @@ export function DonateCard() {
         </div>
 
         <div className="mt-4 space-y-1.5">
-          <Label htmlFor="note">Recado (opcional)</Label>
+          <Label htmlFor="note">Recado ao capitão (opcional)</Label>
           <Textarea
             id="note"
             maxLength={140}
-            placeholder="Uma frase para o presidente"
+            placeholder="Uma frase pela liberdade"
             value={note}
             onChange={(event) => setNote(event.target.value)}
           />
@@ -221,7 +221,7 @@ export function DonateCard() {
         </Button>
         <p className="mt-3 flex items-center justify-center gap-1.5 text-xs text-muted-foreground">
           <ShieldCheck className="size-3.5" />
-          PIX único · a partir de {formatBRL(MIN_DONATION_CENTS)} · total público
+          PIX único · a partir de {formatBRL(MIN_DONATION_CENTS)} · total no banco
         </p>
       </div>
 
@@ -238,8 +238,8 @@ export function DonateCard() {
               <DialogHeader>
                 <DialogTitle>PIX da vaquinha</DialogTitle>
                 <DialogDescription>
-                  Confirme {formatBRL(amountCents)} para o Comitê Apoie seu
-                  Presidente. Nesta prévia, o apoio é registrado na hora.
+                  Confirme {formatBRL(amountCents)} para o ato no MASP. Nesta
+                  prévia, o apoio entra no total na hora — e fica gravado.
                 </DialogDescription>
               </DialogHeader>
               <div className="flex flex-col items-center gap-4">
@@ -280,10 +280,10 @@ export function DonateCard() {
           ) : (
             <>
               <DialogHeader>
-                <DialogTitle>Obrigado pelo apoio</DialogTitle>
+                <DialogTitle>Obrigado. O capitão conta com você.</DialogTitle>
                 <DialogDescription>
-                  Seu valor já entrou no total da campanha. O presidente — e
-                  quem caminha com ele — seguem com você.
+                  Seu valor já entrou no total da Paulista. No dia 15, no MASP,
+                  isso vira som, faixa e presença.
                 </DialogDescription>
               </DialogHeader>
               <div className="flex justify-center py-2">

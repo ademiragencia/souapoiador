@@ -5,23 +5,27 @@ import { cn } from "@/lib/utils";
 const items = [
   {
     q: "Qual é o valor mínimo?",
-    a: "R$ 10. Você pode doar esse valor ou qualquer quantia acima, pelos atalhos ou digitando um valor próprio.",
+    a: "R$ 10. Você escolhe um atalho ou digita outro valor. Cada real entra no total na hora e ajuda a bancar o ato.",
   },
   {
-    q: "Por que a meta é de R$ 5 milhões?",
-    a: "Porque as eleições estão chegando. A campanha precisa de presença nacional. Os R$ 215 mil já arrecadados continuam na conta — a meta nova não apaga o que já entrou.",
+    q: "Para que serve esta vaquinha?",
+    a: "Para financiar a manifestação de 15 de setembro na Avenida Paulista, ponto de encontro no MASP: som, palco, telão, faixas, bandeiras, ônibus dos comitês e estrutura no dia. É a petição viva pela liberdade do capitão.",
   },
   {
-    q: "Os R$ 215 mil já entram na conta?",
-    a: "Sim. A campanha parte de R$ 215.000 já arrecadados. Cada novo apoio soma a esse total — nada é zerado.",
+    q: "Os R$ 11.880 já entram na conta?",
+    a: "Sim. A campanha parte de R$ 11.880 já arrecadados. Cada novo apoio soma a esse total — nada é zerado. O número fica gravado no banco e sobe no site em tempo real.",
+  },
+  {
+    q: "SBT e Record vão cobrir?",
+    a: "Sim. O ato na Paulista terá cobertura da SBT e da Record. Quanto mais gente e estrutura no MASP, mais o Brasil vê o pedido de liberdade.",
   },
   {
     q: "Posso doar sem aparecer no mural?",
-    a: "Pode. Deixe o nome em branco e o apoio entra como anônimo. O valor continua contando no total.",
+    a: "Pode. Deixe o nome em branco e o apoio entra como anônimo. O valor continua contando no total público.",
   },
   {
     q: "Para onde vai o dinheiro?",
-    a: "Para o Comitê Apoie seu Presidente: presença nos estados, comunicação e estrutura de apoio popular. Campanha patriota, não tesouro oficial nem conta de governo.",
+    a: "Para o comitê popular do ato: som, palco, material, deslocamento e operação no MASP. Não é conta de governo nem tesouro oficial.",
   },
 ];
 

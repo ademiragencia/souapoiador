@@ -1,8 +1,9 @@
 import { PresidentMark } from "@/components/president-mark";
 import { Button } from "@/components/ui/button";
+import { APP_NAME } from "@/lib/campaign";
 
 const links = [
-  { href: "#historia", label: "A campanha" },
+  { href: "#ato", label: "O ato" },
   { href: "#apoiadores", label: "Apoiadores" },
   { href: "#transparencia", label: "Transparência" },
 ];
@@ -14,8 +15,8 @@ export function SiteHeader() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
         <a href="#topo" className="flex min-w-0 items-center gap-2.5">
           <PresidentMark className="size-8 shrink-0" />
-          <span className="truncate font-display text-base font-semibold tracking-tight sm:text-lg">
-            Apoie seu Presidente
+          <span className="truncate font-display text-base font-semibold uppercase tracking-wide sm:text-lg">
+            {APP_NAME}
           </span>
         </a>
         <nav className="hidden items-center gap-6 text-sm text-primary-foreground/75 md:flex">

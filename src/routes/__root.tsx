@@ -2,9 +2,8 @@ import { createRootRoute, HeadContent, Outlet, Scripts } from "@tanstack/react-r
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { Toaster } from "sonner";
+import { APP_NAME } from "@/lib/campaign";
 import appCss from "../styles.css?url";
-
-const APP_NAME = "Apoie seu Presidente";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -15,9 +14,9 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Vaquinha patriota do Comitê Apoie seu Presidente. Pelo Brasil. Meta de R$ 5 milhões. Já são R$ 215 mil arrecadados. Doação mínima de R$ 10.",
+          "Bolsonaro pelo Brasil. Petição e vaquinha pela liberdade do capitão. Ato em 15 de setembro na Avenida Paulista, ponto de encontro no MASP. Meta de R$ 100 mil. Já são R$ 11.880. Cobertura SBT e Record. Doação mínima de R$ 10.",
       },
-      { name: "theme-color", content: "#0E3B24" },
+      { name: "theme-color", content: "#042A14" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
@@ -29,7 +28,7 @@ export const Route = createRootRoute({
       },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Oswald:wght@500;600;700&display=swap",
       },
       { rel: "stylesheet", href: appCss },
       { rel: "manifest", href: "/__grok/manifest.webmanifest" },
